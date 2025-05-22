@@ -29,7 +29,8 @@
             width: 300px;
             padding: 5px;
             border: double black 2px;
-
+            margin-left: 150%;
+            margin-left: 35%;
         }
         .preview {
             
@@ -37,6 +38,8 @@
             width: 300px;
             padding: 20px;
             border: double black 2px;
+            margin-top: 4%;
+            border: 3px solid black;
             
         }
 
@@ -46,6 +49,39 @@
             padding: 20px;
             border: double black 2px;
         }
+        .web-informativa {
+            background-color: white;
+            margin-top: 4%;
+            width: 307px;
+            height: 250px;
+            padding: 20px;
+            padding-bottom:25px ;
+            border: 3px solid black;
+            margin-left: 60%;
+
+            
+        }
+        
+
+        .lado {
+            display: flex;
+        }
+
+        .link_web_inform {
+            font-style: oblique;
+            background-color: rgb(255, 255, 255);
+            width: 300px;
+            padding: 5px;
+            border: double black 2px;
+            margin-top: 150%;
+
+        }
+        .margen .link_web_inform{
+            margin-top: 5%;
+            margin-left: 30%;
+        }
+        
+        
     </style>
 
     
@@ -53,13 +89,24 @@
 </head>
 
 <body>
-    <h1 class="titulo"  style="margin-left: 41%;">formulario</h1>
-    <h2 class="nombre"> juan jose hernandez vargas</h2>
-    <img class="preview"  src="iniciar_sesion_img.png" alt="previsualizacion de la pagina" style="width: 300px; margin-top: 4%;border: 3px solid black">
-    <h2></h2>
-    <a class="link"  style="margin-left: 7%;"  href="https://jjhernandez17.github.io/inicio_sesion/" target="_self"> inicio sesion</a>
+    <header>
+        <h1 class="titulo"  style="margin-left: 41%;">formulario</h1>
+        <h2 class="nombre"> juan jose hernandez vargas</h2>
+    </header>
+        <main>
+            <div class="lado">
+                <div >
+                    <a   href="https://jjhernandez17.github.io/inicio_sesion/"> <img class="preview" src="iniciar_sesion_img.png" alt=""></a>
+                    <h2></h2>
+                    <a class="link" href="https://jjhernandez17.github.io/inicio_sesion/" target="_self"> inicio sesion</a>
+                </div>
 
-    
+                <div class="margen">
+                    <a href="https://jjhernandez17.github.io/actividad2/index.html"><img class="web-informativa" src="web_infor.png" alt=""></a>
+                        <a class="link_web_inform" href="https://jjhernandez17.github.io/actividad2/index.html">web informativa</a>
+                </div>
+            </div>
+    </main>
     
 </body>
 </html>
