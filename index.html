@@ -2,145 +2,64 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=divice-width, initial-scale=1.0">
-    <title>actividad2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portafolio</title>
     <style>
-html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-    }
-
-    body {
-      background: linear-gradient(-45deg, #4d4c4c, #f8f5f4, #504e4e, #47474d);
-      background-size: 400% 400%;
-      animation: moverFondo 20s ease infinite;
-    }
-
-    @keyframes moverFondo {
-      0% {
-        background-position: 0% 50%;
-      }
-      50% {
-        background-position: 100% 50%;
-      }
-      100% {
-        background-position: 0% 50%;}}
-    
-        nav { 
-            text-align: center;
-        }
-        .menu {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-            background-color: rgb(88, 83, 83);
-            padding: 0.3% 3%;
-
-            
-        }
-
-        .menu li {
-            color: white;
-            background-color: rgba(227, 236, 236, 0.534);
-            margin-left: 9%;
-            border: solid rgb(22, 9, 9) 1px;
-            padding-top: 0.5%;
-            padding-bottom: 0.5%;
-            padding-right: 2.5%;
-            padding-left: 2.5%;
-
-        }
-        .menu li a {
-            font-size: 20px;
-            display: block;
-            text-decoration: none;
-            color: aliceblue;
-            
-        }
-        .intro {
-            background-color: rgba(192, 218, 218, 0.623);
-            margin-left: 28%;
-            margin-right: 28%;
-            margin-top: 5%;
-            border: solid black 1px;
-            padding:5%;
-            border-radius: 4%;
-            
-        }
-        .intro h2 {
-            text-align:  center;
-        }
-        .yo img {
-            margin-top: 30%;
-            margin-left: 90%;
-            width: 400px;
-            height: 550px;
-            border: solid black 2px;
-
-        }
-
-        .linea-vertical {
-            height: 700px; 
-            border-left: 2px solid rgb(170, 167, 167); 
-            margin-left: 29%;
-            margin-bottom: 40%;
-            margin-top: 3%;
-
-            }
-        .al-lado {
-            display: flex;
-  
-        }
-        .otra-foto img {
-            width: 400px;
-            height: 550px;
-            margin-top: 30%;
-            margin-left: 49%;
-            border: solid black 2px;
-
-
-        }
-            
 
         
+
+        body {
+            background-image: url("fondo.webp");
+            background-color: rgb(167, 167, 167);
+            margin-left: 10%;
+        }
+        .nombre {
+            background-color: rgb(255, 255, 255);
+            width: 283px;
+            padding: 4px;
+            border: double black 2.4px;
+            margin-left: 38%; 
+            margin-top: 3%;
+            
+            
+        }
+        .link {
+            font-style: oblique;
+            background-color: rgb(255, 255, 255);
+            width: 300px;
+            padding: 5px;
+            border: double black 2px;
+
+        }
+        .preview {
+            
+            background-color: rgb(255, 255, 255);
+            width: 300px;
+            padding: 20px;
+            border: double black 2px;
+            
+        }
+
+        .titulo {
+            background-color: rgb(119, 203, 252);
+            width: 150px;
+            padding: 20px;
+            border: double black 2px;
+        }
     </style>
+
+    
+    
 </head>
+
 <body>
-    <header>
-        <nav>
-            <ul class="menu">
-                <li><a href="#"> productos</a></li>
-                <li><a href="#">articulos</a></li>
-                <li><a href=""> contacto</a></li>
-                <li><a href="">perfil personal</a></li>
-                <li><a href="">galeria</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <div class="intro">
-            <h2>INTRODUCCION</h2>
-            <p> Hola mi nombre es juan jose hernandez vargas, soy estudiante de RIWI, esta es una pagina personal en la que hablo un poco de mi, informacion personal, productos que vendo, en una seccion tendran mi contacto, van a tener una galeria de fotos y aparte les voy a informar sobre un poco del codigo implementado en esta web </p>
-        </div>
+    <h1 class="titulo"  style="margin-left: 41%;">formulario</h1>
+    <h2 class="nombre"> juan jose hernandez vargas</h2>
+    <img class="preview"  src="iniciar_sesion_img.png" alt="previsualizacion de la pagina" style="width: 300px; margin-top: 4%;border: 3px solid black">
+    <h2></h2>
+    <a class="link"  style="margin-left: 7%;"  href="iniciar sesion.html" target="_self"> inicio sesion</a>
 
-
-        <div class="al-lado">
-            <div class="yo">
-                <img src="IMG_5006.jpeg" alt="yo">
-            </div>
-            <div class="linea-vertical"> </div>
-
-            <div class="otra-foto">
-                <img src="IMG_5005.jpeg" alt="">
-            </div>
-
-        </div>
-    </main>
-
-
-
-
+    
+    
 </body>
 </html>
