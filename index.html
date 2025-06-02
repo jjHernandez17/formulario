@@ -3,167 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portafolio</title>
-    <style>
-
-        
-
-        body {
-            height: 5000px;
-            background-image: url("fondo.webp");
-            background-color: rgb(167, 167, 167);
-            margin-left: 10%;
-        }
-        .nombre {
-            background-color: rgb(255, 255, 255);
-            width: 283px;
-            padding: 4px;
-            border: double black 2.4px;
-            margin-left: 38%; 
-            margin-top: 3%;
-            
-            
-        }
-        .link {
-            font-style: oblique;
-            background-color: rgb(255, 255, 255);
-            width: 300px;
-            padding: 5px;
-            border: double black 2px;
-            margin-left: 150%;
-            margin-left: 35%;
-        }
-        .preview {
-            
-            background-color: rgb(255, 255, 255);
-            width: 300px;
-            padding: 20px;
-            border: double black 2px;
-            margin-top: 4%;
-            border: 3px solid black;
-            transition: transform 0.9s ease;
-            
-        }
-
-        .preview:hover {
-            transform: scale(1.1);
-        }
-
-        .titulo {
-            background-color: rgb(119, 203, 252);
-            border: double black 2px;
-            width: 250px;
-            height:80px ;
-            text-align: center;
-            margin-left: 640px ;
-            margin-top: 50px;
-        }
-        .web-informativa {
-            background-color: white;
-            margin-top: 4%;
-            width: 307px;
-            height: 250px;
-            padding: 20px;
-            padding-bottom:22xpx ;
-            border: 3px solid black;
-            margin-left: 0%;
-            margin-bottom: 4%;
-            transition: transform 0.9s ease;
-
-        }
-
-        .web-informativa:hover {
-            transform: scale(1.1);
-        }
-        
-
-        .lado {
-            display: flex;
-        }
-
-        .margen {
-            margin-left: 16%;
-        }
-        .link_web_inform {
-            font-style: oblique;
-            background-color: rgb(255, 255, 255);
-            width: 300px;
-            padding: 5px;
-            border: double black 2px;
-            margin-top: 20%;   
-            margin-left:25%;   
-            text-align: center; 
-}
-        .presentacion {
-            background-color: aliceblue;
-            width: 800px;
-            height: 70px;
-            margin-left: 350px;
-            margin-bottom: 50px;
-            padding: 30px;
-            text-align: center;
-            border: solid black 2px;
-        }
-
-        .boton-contacto {
-            position: fixed;
-            width: 100px;
-            height: 100px;
-            margin-left: 1500px;
-            margin-top: 800px;
-        }
-        .qr {
-            height: 300px ;
-            margin-top: 20px;
-            border: solid black 2px;
-            transition: transform 0.9s ease;
-        }
-        .qr:hover {
-            transform: scale(1.1);
-        }
-        
-        
-    </style>
-
-    
-    
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    
-    <header>
-        <div>
-            <a target="_blank" href="https://w.app/ozg3bl"><img class="boton-contacto" src="WhatsApp.svg.webp" alt=""></a>
-        </div>
-        
-        <div class="titulo">
-        <h1>PORTAFOLIO</h1>
-        </div>
-        <h2 class="nombre"> juan jose hernandez vargas</h2>
-        <div class="presentacion">
-            <b> hola mi nombre es juan jose hernandez vargas, estudio en riwi y en la universidad de envigado, siempre me ha interesado el tema de desarrollo de software, me gusta mucho ponerme a prueba desafiando mi logica y en este caso lo estoy haciendo creando proyectos y paginas web, este es mi portafolio y en el voy a evidenciar mi crecimiento durante el modulo de desarrollo web</b>
+    <header class="banner-top">
+        <h1 class="titulo">PORTAFOLIO</h1>
+    </header>
+
+    <header class="info">
+        <h2 class="nombre">JUAN JOSE HERNANDEZ VARGAS</h2>
+        <div class="introduccion">
+        <p>¡Hola! Bienvenido a mi portafolio de desarrollo web. Aquí encontrarás una colección de proyectos donde he combinado creatividad, diseño y funcionalidad para ofrecer soluciones digitales adaptadas a diferentes necesidades. Cada página refleja mi pasión por el diseño web responsivo, la experiencia de usuario y las buenas prácticas de desarrollo. ¡Explora y conoce más sobre mi trabajo!</p>
         </div>
     </header>
-        <main>
-            <div class="lado">
-                <div >
-                    <a   href="https://jjhernandez17.github.io/inicio_sesion/"> <img class="preview" src="iniciar_sesion_img.png" alt=""></a>
-                    <h2></h2>
-                    <a class="link" href="https://jjhernandez17.github.io/inicio_sesion/" target="_self"> inicio sesion</a>
-                </div>
 
-                <div class="margen">
-                        <a href="https://jjhernandez17.github.io/actividad2/index.html"><img class="web-informativa" src="web_infor.png" alt=""></a>
-                        <a class="link_web_inform" href="https://jjhernandez17.github.io/actividad2/index.html">web informativa</a>
-                </div>
+    <main>
+        <section class="proyectos">
 
-                <div >
-                    <a   href=https://jjhernandez17.github.io/menu/ > <img class="qr" src="QR-menu.png" alt=""></a>
-                    <h2></h2>
-                    <a class="link" href="https://jjhernandez17.github.io/menu/" target="_self"> MENU </a>
-                </div>
-            </div>
+        <div class="proyecto">
+            <a   href="https://jjhernandez17.github.io/inicio_sesion/"> <img class="preview" src="imagenes/iniciar_sesion_img.png" alt=""></a>
+            <a class="link" href="https://jjhernandez17.github.io/inicio_sesion/">inicio sesion</a>
+        </div>
+
+        
+        <div class="proyecto">
+            <a href="https://jjhernandez17.github.io/actividad2/index.html"><img class="preview" src="imagenes/web_infor.png" alt=""></a>
+            <a class="link" href="https://jjhernandez17.github.io/actividad2/index.html">web_infor</a>
+        </div>
+
+        
+        <div class="proyecto">
+            <a   href="https://jjhernandez17.github.io/menu/" > <img class="preview" src="imagenes/QR-menu.png" alt=""></a>
+            <a class="link" href="https://jjhernandez17.github.io/menu/">menu</a>
+        </div>
+        
+        </section>
     </main>
+
+
     
 </body>
 </html>
