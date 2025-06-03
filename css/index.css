@@ -7,7 +7,7 @@ body {
     background-color: rgb(14, 14, 14);
     color: white;
     font-family: Nunito;
-    height: 1200px;
+    height: 900px;
 }
 .titulo { 
     text-align: center;
@@ -15,15 +15,26 @@ body {
 .banner-top {
     width: 100%;
     padding-bottom: 30px;
+    margin-bottom: 80px;
     padding-top: 30px;
     background-color: rgb(78, 78, 78);
     text-align: center;
     box-shadow: 0px 0px 10px white;
 }
 
+.yo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 110px;
+    height: 110px;
+    margin-bottom: 50px;
+}
+
 .nombre {
     margin-top: 70px;
     text-align: center;
+    margin-bottom: 45px;
 }
 
 .introduccion {
@@ -44,6 +55,7 @@ body {
 .proyectos {
     margin-top: 70px;
     display: flex;
+    flex-wrap: wrap;
     gap: 200px;
     align-items: center;    
     justify-content: center ;
@@ -53,6 +65,8 @@ body {
     width: 250px;
     height: 270px;
 }
+
+
 .proyecto {
     display: flex;
     flex-direction: column;
@@ -73,6 +87,35 @@ body {
 .link {
     text-decoration: none;
     color: white;
+}
+
+.footer {
+    height: 170px;
+    background-color:rgb(78, 78, 78);
+    box-shadow: 0px 0px 10px white;
+    padding: 20px;
+}
+main {
+    height: 100%;
+}
+.contacto {
+    text-align: center;
+    padding: 15px;
+    width: 200px;
+}
+.lista_contactos {
+    list-style: none;   
+    display: flex;
+    justify-content: center;    
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.img_contacto {
+    width: 30px;
+}
+.link {
+    text-decoration: none;
 }
 
 
