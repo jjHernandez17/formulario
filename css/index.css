@@ -7,7 +7,6 @@ body {
     background-color: rgb(14, 14, 14);
     color: white;
     font-family: Nunito;
-    height: 900px;
 }
 .titulo { 
     text-align: center;
@@ -90,24 +89,30 @@ body {
 }
 
 .footer {
+    text-align: center;
+    justify-content: center;
     height: 170px;
     background-color:rgb(78, 78, 78);
     box-shadow: 0px 0px 10px white;
     padding: 20px;
 }
+
 main {
     height: 100%;
+    margin-bottom: 100px;
 }
 .contacto {
     text-align: center;
     padding: 15px;
-    width: 200px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
 }
 .lista_contactos {
     list-style: none;   
     display: flex;
-    justify-content: center;    
-    gap: 10px;
+    justify-content: center;  
+    gap: 10px;  
     margin-top: 10px;
 }
 
@@ -117,6 +122,49 @@ main {
 .link {
     text-decoration: none;
 }
+
+.redes-lista {
+    list-style: none;
+    list-style: none;   
+    display: flex;
+    justify-content: center;  
+    gap: 10px;  
+    margin-top: 10px;
+}
+.contacto h2 {
+    font-size: 20px;
+}
+
+
+
+.redes {
+    text-align: center;
+    padding: 15px;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+}
+
+.columna-segunda {
+    width: 20%;
+}
+.columna-tercera {
+    text-align: center;
+    
+
+}
+.columna-cuarta {
+    width: 20%;
+}
+
+.footer_contenido{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
 
 
 @media (max-width: 1170px) {
@@ -134,4 +182,19 @@ main {
         gap: 30px;
         flex-direction: column;
     }
+
+    .contacto {
+    text-align: left;
+
+    }
+
+
+
+.footer {
+
+    justify-content: initial;
+}
+
+
+
 }
