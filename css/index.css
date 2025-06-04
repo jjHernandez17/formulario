@@ -102,9 +102,9 @@ main {
     margin-bottom: 100px;
 }
 .contacto {
+    width: 110px;
+    justify-content: center;
     text-align: center;
-    padding: 15px;
-    width: auto;
     height: auto;
     margin-top: 30px;
 }
@@ -138,28 +138,34 @@ main {
 
 
 .redes {
+    width: 110px;
+    justify-content: end;
     text-align: center;
-    padding: 15px;
-    width: auto;
     height: auto;
     margin-top: 30px;
 }
 
 .columna-segunda {
+    justify-content: center;
     width: 20%;
 }
 .columna-tercera {
     text-align: center;
+    justify-content: center;
     
 
 }
 .columna-cuarta {
+    display: flex;
     width: 20%;
+    justify-content: end;
+
 }
 
 .footer_contenido{
     display: flex;
     justify-content: center;
+
 }
 
 
@@ -190,9 +196,11 @@ main {
 
 
 
-.footer {
+.footer_contenido {
+    justify-content:space-around;
+    
 
-    justify-content: initial;
+    
 }
 
 
